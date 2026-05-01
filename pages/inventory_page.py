@@ -1,6 +1,4 @@
 class InventoryPage:
-    URL = "https://www.saucedemo.com/inventory.html"
-
     def __init__(self, page):
         self.page = page
     def add_to_cart(self, item_name):
